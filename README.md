@@ -26,14 +26,6 @@ These algorithms train a model to predict surrounding words or document context 
 During training, documents and the words within them are represented as vectors, and the model aims to minimize the distance between similar documents/words in the vector space.
 
 
-Feature	        Count Vectorization	            Doc2Vec
-________________________________________________________________________________________
-Focus	        Word frequency	                Semantic relationships
-Word order	    Ignored	Considered
-Vector meaning	Word count in document	        Semantic embedding
-Applications	Classification, topic modeling	Similarity, clustering, recommendation
-
-
 3. TF-IDF Vectorizer:
 
 Concept: Builds upon Count Vectorization by addressing the issue of high-frequency words dominating the representation. It considers both term frequency (TF) and inverse document frequency (IDF).
